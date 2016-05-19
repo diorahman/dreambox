@@ -1,14 +1,14 @@
 {
   "name": "dreambox",
-  "version": "0.1.0",
-  "description": "A Dreambox library.",
+  "version": "0.1.1",
+  "description": "An async-await layer on top of Catbox",
   "main": "build/lib/index.js",
   "scripts": {
     "test": "gulp test",
     "build": "gulp compile"
   },
   "author": "Dhi Aurrahman <dio@hooq.tv>",
-  "license": "SEE LICENSE IN LICENSE.md",
+  "license": "MIT",
   "babel": {
     "presets": [
       "es2015"
@@ -46,5 +46,25 @@
     "gulp-cached": "^1.1.0",
     "gulp-concat-util": "^0.5.5",
     "gulp-sourcemaps": "^1.6.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diorahman/dreambox.git"
+  },
+  "keywords": [
+    "catbox",
+    "cache",
+    "memory",
+    "s3",
+    "redis",
+    "riak",
+    "memcached"
+  ],
+  "bugs": {
+    "url": "https://github.com/diorahman/dreambox/issues"
+  },
+  "homepage": "https://github.com/diorahman/dreambox#readme"
 }
